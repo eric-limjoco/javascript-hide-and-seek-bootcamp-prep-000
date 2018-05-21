@@ -18,7 +18,7 @@ function deepestChild(){
   var node = document.getElementById('grand-node')
   var current = node
   var cont = true
-  var count = 1
+  var count = 0
   
   while(cont){
     if(current.hasChildNodes()){
