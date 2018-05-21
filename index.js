@@ -20,20 +20,6 @@ function deepestChild(){
   for(var i = 0; i < children.length; i++){
     
   }
-  var node = document.getElementById('grand-node')
-  var current = node
-  var cont = true
-  var count = 0
-  
-  while(cont){
-    if(current.hasChildNodes()){
-      current = current.firstChild
-      count++
-    } else {
-      cont = false
-    }
-  }
-  
   return current
 
 }
