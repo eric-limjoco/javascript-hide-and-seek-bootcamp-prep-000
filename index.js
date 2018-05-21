@@ -20,6 +20,6 @@ function deepestChild(){
   for(var i = 0; i < children.length; i++){
     if(i === children.length - 1) return children[i]
   }
-  return current
+  return null
 
 }
