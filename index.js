@@ -28,6 +28,8 @@ function deepestChild(){
       cont = false
     }
   }
+  
+  return count
   return current
 
 }
