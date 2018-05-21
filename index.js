@@ -22,7 +22,7 @@ function deepestChild(){
   
   while(cont){
     if(current.hasChildNodes()){
-      current = current.childNodes[0]
+      current = current.firstChild
       count++
     } else {
       cont = false
