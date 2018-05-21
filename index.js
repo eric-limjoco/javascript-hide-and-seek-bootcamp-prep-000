@@ -29,7 +29,6 @@ function deepestChild(){
     }
   }
   
-  return count
   return current
 
 }
